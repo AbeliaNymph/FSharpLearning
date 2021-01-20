@@ -6,14 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="config.toml" />
+    <Compile Include="Stack.fs" />
+    <Compile Include="DFA.fs" />
+    <Compile Include="ConsoleGUI.fs" />
+    <Compile Include="LINQTest.fsi" />
+    <Compile Include="LINQTest.fs" />
     <Compile Include="Program.fs" />
+    <None Include="config.toml" />
   </ItemGroup>
-
-  <ItemGroup />
-
-  <ItemGroup>
-    <ProjectReference Include="..\FSharpGUI\FSharpGUI.csproj" />
-  </ItemGroup>
-
+  
 </Project>

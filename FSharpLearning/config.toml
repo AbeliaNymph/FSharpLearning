@@ -1,5 +1,25 @@
-﻿[java_web]
-input = "D:\Code\FuckJava\JspLearning\"
-output = "D:\Code\FuckJava\target\zip\软工二班_顾天皓.zip"
-
-[uml]
+﻿C:\Program Files (x86)\Microsoft DirectX 9.0 SDK (August 2005)\Utilities\Bin\x86 
+D:\Software\oracle\product\11.2.0\dbhome_1\bin 
+C:\Program Files\Java\jdk1.8.0_60\bin 
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\ 
+C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\ 
+C:\Windows\system32 
+C:\Windows 
+C:\Windows\System32\Wbem 
+C:\Windows\System32\WindowsPowerShell\v1.0\ 
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL 
+C:\Program Files\Intel\Intel(R) Management Engine Components\DAL 
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT 
+C:\Program Files\Intel\Intel(R) Management Engine Components\IPT 
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common %SystemRoot%\system32 
+%SystemRoot% %SystemRoot%\System32\Wbem %SYSTEMROOT%\System32\WindowsPowerShell\v1.0\ 
+"%SYSTEMROOT%\System32\OpenSSH\ %CATALINA_HOME%\bin " 
+C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR 
+C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ 
+C:\Program Files\Microsoft SQL Server\140\Tools\Binn\ 
+C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\ 
+C:\Program Files\Microsoft SQL Server\140\DTS\Binn\ 
+C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\
+C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\
+"%JAVA_HOME%\bin %JAVA_HOME%\jre\bin " 
+C:\Program Files\dotnet\ 

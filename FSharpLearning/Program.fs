@@ -1,34 +1,23 @@
 ﻿open System
-open System.Threading.Tasks
-open System.Diagnostics
+
+
 
 [<EntryPoint>]
-let main args =
-    
-    use stream_reader = new IO.StreamReader (IO.File.OpenRead "config.toml")
-    let input = stream_reader.ReadToEnd()
-    printfn "%A" input
+let main args = 
+    let stack = Stack.create()
+    printfn "%A" stack
 
-    let input = 
-        input.Trim().TrimStart('[').Split('[')
-        |> Seq.map (
-            fun item ->
-                let input = item.Trim().Split(']')
-                (
-                    input.[0].Trim(), 
-                    input.[1].Trim().Split("\r\n")
-                    |> Seq.map (
-                        fun item ->
-                            let input = item.Trim().Split('=')
-                            (input.[0].Trim(), input.[1].Trim())
-                    )
-                    |> Map.ofSeq
-                )               
-        )
-        |> Map.ofSeq
+    let stack = Stack.push stack 2
+    printfn "%A" stack
 
-    printfn "%A" input
+    let number = Stack.peek stack
+    printfn "%A" number
+
+    let stack = Stack.pop stack
+    printfn "%A" stack
+
     
-    printfn "%A" input.["java_web"].["output"]
+    let stack = Stack.pop stack
+    printfn "%A" stack
 
     0
